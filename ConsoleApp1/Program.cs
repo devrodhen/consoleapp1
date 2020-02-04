@@ -8,6 +8,7 @@ namespace ConsoleApp1
         {
             Text x = new Text();
             Console.WriteLine(x.Nome);
+            Console.WriteLine(x.Idade);
 
         }
     }
