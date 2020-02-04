@@ -6,11 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Triangulo x = new Triangulo();
-            x.A = 10;
-            x.B = 20;
+            Text x = new Text();
+            Console.WriteLine(x.Nome);
 
-            Somar();
         }
     }
 }
